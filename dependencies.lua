@@ -4,7 +4,7 @@ mc = {
     ['Happy'] = love.graphics.newImage('assets/art/MC_Happy.png'),
     ['Sad'] = love.graphics.newImage('assets/art/MC_Sad.png'),
     ['Concern'] = love.graphics.newImage('assets/art/MC_Concerned.png'),
-    ['Fear'] = love.graphics.newImage('assets/art/MC_Fear.png')
+    ['Afraid'] = love.graphics.newImage('assets/art/MC_Afraid.png')
 }
 
 bg = {

@@ -17,7 +17,7 @@ Task One:
                 MC_Happy.png
                 MC_Sad.png
                 MC_Concerned.png
-                MC_Fear.png
+                MC_Afraid.png
         All of these assets will be held under assets\art\
     - Play music:
         You will need to be ablee to play music of any length.
@@ -36,7 +36,7 @@ Task One:
                 *MC_Happy
                 *MC_Sad
                 *MC_Concerned
-                *MC_Fear
+                *MC_Afraid
                 *Background_1
                 *Background_2
                 *Background_3
@@ -62,9 +62,9 @@ Task One:
                 Background_Main.png
                 Background_Variation_1.png
                 Background_Variation_2.png
+                MC_Afraid.png
                 MC_Concerned.png
                 MC_Default.png
-                MC_Fear.png
                 MC_Happy.png
                 MC_Sad.png
                 MC_Shocked.png
@@ -134,8 +134,8 @@ function nextLine()
             char_state = 'Sad'
         elseif current_line == '*mc_concerned' then
             char_state = 'Concern'
-        elseif current_line == '*mc_fear' then
-            char_state = 'Fear'
+        elseif current_line == '*mc_afraid' then
+            char_state = 'Afraid'
         elseif current_line == '*music_1' then
             love.audio.stop()
             music['Music_1']:play()
