@@ -1,0 +1,19 @@
+*Music_1
+"Music 1 is playing and I should be a default sprite!
+*MC_Fear
+"Now Im afraid! AAAAAA
+*MC_Sad
+*Background_2
+*Music_2
+"Things just got really sad, and Im in a different place now.
+*MC_Shocked
+"The music is different too! Im shocked.
+*Music_3
+*MC_Happy
+*Background_3
+"A new place now! With new music! Im so happy! Nothing could worry me now.
+*Music_None
+*MC_Concerned
+"UH OH! Music stopped!?!!
+*MC_Default
+"This must be the end...
