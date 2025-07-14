@@ -96,7 +96,6 @@ end
 text = {}
 function loadText() -- Loads all of the text from /assets/story.txt into the text array
     data = love.filesystem.read("assets/story.txt")
-    display_dialogue = data
     for line in data:gmatch("[^\n]+") do
         table.insert(text, line)
     end
