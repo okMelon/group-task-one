@@ -93,18 +93,12 @@ function love.load()
 end
 
 
-io.input(love.filesystem.getSource()..'/assets/story.txt') -- Sets our story.txt as the input we read from using io
-text = {} -- This array will store all of the lines from the text file so we don't have to read from it
+text = {}
 function loadText() -- Loads all of the text from /assets/story.txt into the text array
-    i = 1
-    while true do
-        line = io.read("*line")
-        if line == nil then
-            return
-        else
-            text[i] = line
-            i = i+1
-        end
+    data = love.filesystem.read("assets/story.txt")
+    display_dialogue = data
+    for line in data:gmatch("[^\n]+") do
+        table.insert(text, line)
     end
 end
 
